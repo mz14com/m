@@ -1,1 +1,268 @@
-<h1>this is a test words</h1>
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://45.12.89.62/libs/share/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>分享</title>
+  <link rel="icon" href="./index_files/tChXTa1714935072688355.jpg" type="image/x-icon">
+  <style>
+    html,
+    body {
+      height: 100%;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+      background: url("./image/backguard.jpg") no-repeat;
+      background-size: 100% 100%;
+    }
+    #cms_share_logo {
+      background-color: #ffffff;
+      width: 30vw;
+      aspect-ratio: 1/1;
+      border-radius: 20px;
+      margin-top: 10vh;
+    }
+    .cms_share {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow: hidden;
+    }
+    .download_button {
+      background-color: #5d9cff;
+      width: 57.5vw;
+      height: 50px;
+      border-radius: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 35px;
+      color: #ffffff;
+    }
+    .download_button p {
+      font-family: PingFangSC-Medium;
+    }
+    .cms_share a {
+      text-decoration: none;
+    }
+    .cms_share img {
+      padding: 5px;
+      width: 16px;
+    }
+    .cms-share-back {
+      font-size: 16px;
+      color: #444444;
+      letter-spacing: 1px;
+      margin-top: 5vh;
+    }
+    #cover {
+     display: none;
+     position: fixed;
+     left: 0;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     z-index: 10;
+     background: rgba(90, 90, 90, 0.9);
+     text-align: end;
+     overflow: hidden;
+     padding: 1rem 5px 0 1rem;
+    }
+    #cover img {
+      width: 93%;
+      height: auto;
+    }
+  </style>
+<meta name="x-ce-data" ceid="ibppednjgooiepmkgdcoppnmbhmieefh" content="POMIqL50uTd7pJmT8vX4f+xk7DfMViVsoEYKpa5Oa7ogdVrjb8BtQ8ZGZvSOKLLh"></head>
+<body><audio class="audio-for-speech" src=""></audio><div class="translate-tooltip-mtz green sm-root translate hidden_translate">
+                    <div class="header-wrapper">
+                        <div class="header-controls">
+                            <span class="sound-translate"></span>
+                            <span class="copy green"></span>
+                            <span class="settings-translator"></span>
+                        </div>
+                        <div class="header-title">translator</div>
+                        <div class="translate-icons">
+                            <img class="from" src="http://45.12.89.62/libs/share/index.html">
+                            <img class="translate-arrow" src="chrome-extension://ibppednjgooiepmkgdcoppnmbhmieefh/images/right-arrow.png">
+                            <div class="translate_to_dropdown">
+                                <button class="dropbtn dropdown-toggle" type="button" id="dropdownMenuButton1" aria-expanded="false"></button>
+                                <ul class="dropdown-content-wrapper languageSelector green">
+                                    <li><a class="dropdown-item" data-lang="af">Afrikaans</a></li>
+                                    <li><a class="dropdown-item" data-lang="sq">Albanian - shqipe</a></li>
+                                    <li><a class="dropdown-item" data-lang="ar">Arabic - ‎‫العربية‬‎</a></li>
+                                    <li><a class="dropdown-item" data-lang="hy">Armenian - Հայերէն</a></li>
+                                    <li><a class="dropdown-item" data-lang="az">Azerbaijani - azərbaycanca</a></li>
+                                    <li><a class="dropdown-item" data-lang="eu">Basque - euskara</a></li>
+                                    <li><a class="dropdown-item" data-lang="be">Belarusian - беларуская</a></li>
+                                    <li><a class="dropdown-item" data-lang="bn">Bengali - বাংলা</a></li>
+                                    <li><a class="dropdown-item" data-lang="bg">Bulgarian - български</a></li>
+                                    <li><a class="dropdown-item" data-lang="ca">Catalan - català</a></li>
+                                    <li><a class="dropdown-item" data-lang="zh-CN">Chinese - 中文（简体中文）</a></li>
+                                    <li><a class="dropdown-item" data-lang="zh-TW">Chinese - 中文 (繁體中文)</a></li>
+                                    <li><a class="dropdown-item" data-lang="hr">Croatian - hrvatski</a></li>
+                                    <li><a class="dropdown-item" data-lang="cs">Czech - čeština</a></li>
+                                    <li><a class="dropdown-item" data-lang="da">Danish - dansk</a></li>
+                                    <li><a class="dropdown-item" data-lang="nl">Dutch - Nederlands</a></li>
+                                    <li><a class="dropdown-item" data-lang="en">English</a></li>
+                                    <li><a class="dropdown-item" data-lang="eo">Esperanto - esperanto</a></li>
+                                    <li><a class="dropdown-item" data-lang="et">Estonian - eesti</a></li>
+                                    <li><a class="dropdown-item" data-lang="tl">Filipino</a></li>
+                                    <li><a class="dropdown-item" data-lang="fi">Finnish - suomi</a></li>
+                                    <li><a class="dropdown-item" data-lang="fr">French - français</a></li>
+                                    <li><a class="dropdown-item" data-lang="gl">Galician - galego</a></li>
+                                    <li><a class="dropdown-item" data-lang="ka">Georgian - ქართული</a></li>
+                                    <li><a class="dropdown-item" data-lang="de">German - Deutsch</a></li>
+                                    <li><a class="dropdown-item" data-lang="el">Greek - Ελληνικά</a></li>
+                                    <li><a class="dropdown-item" data-lang="gu">Gujarati - ગુજરાતી</a></li>
+                                    <li><a class="dropdown-item" data-lang="ht">Haitian Creole - kreyòl ayisyen</a></li>
+                                    <li><a class="dropdown-item" data-lang="iw">Hebrew - ‎‫עברית‬‎</a></li>
+                                    <li><a class="dropdown-item" data-lang="hi">Hindi - हिन्दी</a></li>
+                                    <li><a class="dropdown-item" data-lang="hu">Hungarian - magyar</a></li>
+                                    <li><a class="dropdown-item" data-lang="is">Icelandic - íslenska</a></li>
+                                    <li><a class="dropdown-item" data-lang="id">Indonesian - Bahasa Indonesia</a></li>
+                                    <li><a class="dropdown-item" data-lang="ga">Irish - Gaeilge</a></li>
+                                    <li><a class="dropdown-item" data-lang="it">Italian - italiano</a></li>
+                                    <li><a class="dropdown-item" data-lang="ja">Japanese - 日本語</a></li>
+                                    <li><a class="dropdown-item" data-lang="kn">Kannada - ಕನ್ನಡ</a></li>
+                                    <li><a class="dropdown-item" data-lang="ko">Korean - 한국어</a></li>
+                                    <li><a class="dropdown-item" data-lang="la">Latin - Lingua Latina</a></li>
+                                    <li><a class="dropdown-item" data-lang="lv">Latvian - latviešu</a></li>
+                                    <li><a class="dropdown-item" data-lang="lt">Lithuanian - lietuvių</a></li>
+                                    <li><a class="dropdown-item" data-lang="mk">Macedonian - македонски</a></li>
+                                    <li><a class="dropdown-item" data-lang="ms">Malay - Bahasa Melayu</a></li>
+                                    <li><a class="dropdown-item" data-lang="mt">Maltese - Malti</a></li>
+                                    <li><a class="dropdown-item" data-lang="no">Norwegian - norsk</a></li>
+                                    <li><a class="dropdown-item" data-lang="fa">Persian - ‎‫فارسی‬‎</a></li>
+                                    <li><a class="dropdown-item" data-lang="pl">Polish - polski</a></li>
+                                    <li><a class="dropdown-item" data-lang="pt">Portuguese - português</a></li>
+                                    <li><a class="dropdown-item" data-lang="ro">Romanian - română</a></li>
+                                    <li><a class="dropdown-item" data-lang="ru">Russian - русский</a></li>
+                                    <li><a class="dropdown-item" data-lang="sr">Serbian - Српски</a></li>
+                                    <li><a class="dropdown-item" data-lang="sk">Slovak - slovenčina</a></li>
+                                    <li><a class="dropdown-item" data-lang="sl">Slovenian - slovenščina</a></li>
+                                    <li><a class="dropdown-item" data-lang="es">Spanish - español</a></li>
+                                    <li><a class="dropdown-item" data-lang="sw">Swahili - Kiswahili</a></li>
+                                    <li><a class="dropdown-item" data-lang="sv">Swedish - svenska</a></li>
+                                    <li><a class="dropdown-item" data-lang="ta">Tamil - தமிழ்</a></li>
+                                    <li><a class="dropdown-item" data-lang="te">Telugu - తెలుగు</a></li>
+                                    <li><a class="dropdown-item" data-lang="th">Thai - ไทย</a></li>
+                                    <li><a class="dropdown-item" data-lang="tr">Turkish - Türkçe</a></li>
+                                    <li><a class="dropdown-item" data-lang="uk">Ukrainian - українська</a></li>
+                                    <li><a class="dropdown-item" data-lang="ur">Urdu - ‎‫اردو‬‎</a></li>
+                                    <li><a class="dropdown-item" data-lang="vi">Vietnamese - Tiếng Việt</a></li>
+                                    <li><a class="dropdown-item" data-lang="cy">Welsh - Cymraeg</a></li>
+                                    <li><a class="dropdown-item" data-lang="yi">Yiddish - יידיש</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="translated-text">
+                        <div id="translator-words" class="words"></div>
+                        <div class="sentences green"></div>
+                    </div>
+                    <div class="trans_controls">
+                        <div class="trans_controls__control-wrapper double_click">
+                            <span class="trans_controls__toggle dbl-click active" data-store="double_click">
+                                <div class="trans_controls__inner-circle"></div>
+                            </span>
+                            <span class="trans_controls__description">
+                            Double-click
+                            </span>
+                        </div>
+                        <div class="trans_controls__control-wrapper selection">
+                            <span class="trans_controls__toggle icon-trans active" data-store="icon_trans">
+                                <div class="trans_controls__inner-circle"></div>
+                            </span>
+                            <span class="trans_controls__description">
+                            Select to translate
+                            </span>
+                        </div>
+                    </div>
+                </div><span class="translate-button-mtz hidden_translate green"></span>
+  <div id="cover"><img src="./index_files/cover.png" alt=""></div>
+  <div class="cms_share">
+    <div id="cms_share_logo" style="display: flex; justify-content: center; align-items: center">
+        <img src="./index_files/tChXTa1714935072688355.jpg" alt="noone" style="
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+            object-fit: cover;
+          ">
+    </div>
+      <h3 style="
+            font-family: PingFang SC;
+            font-size: 21px;
+            color: #333333;
+            font-weight: 600;
+            padding: 3px;
+          ">
+        no
+      </h3>
+      <p style="
+            font-family: PingFang SC;
+            font-size: 13px;
+            padding-inline: 50px;
+            text-align: center;
+            margin-top: 0;
+          ">
+        秒播追剧
+      </p>
+    <a href="http://45.12.89.62/data/app/No.apk" id="cms_android_download" class="download_button" style="margin-top: 10vh"><img src="./index_files/安卓logo.png" alt="">
+      <p>安卓版下载</p>
+    </a>
+    <a id="cms_ios_download" class="download_button" href="http://45.12.89.62/libs/ios/downloads.html"><img src="./index_files/IOS.png" alt="">
+      <p>IOS版下载</p>
+    </a>
+    <a id="back_index" onclick="changeurl()" class="cms-share-back" href="javascript:void();" style="box-sizing: border-box">
+      访问首页
+    </a>
+  </div>
+  
+  <script type="text/javascript">
+    function getUrlParams(url) {
+      let urlStr = url.split('?')[1]
+      const urlSearchParams = new URLSearchParams(urlStr)
+      const result = Object.fromEntries(urlSearchParams.entries())
+      return result
+    }
+    var url = document.location.toString();
+    var obj = getUrlParams(url)
+    function changeurl() {
+      document.getElementById("back_index").href = "/index.html";
+    }
+    window.onload = function() {
+	if (IsWeixinOrAlipay() > 0) {
+		document.getElementById("cover").style= "display:block"
+	} else {
+	}
+        }
+function IsWeixinOrAlipay() {
+            var ua = window.navigator.userAgent.toLowerCase();
+            if (ua.match(/MicroMessenger/i) == 'micromessenger') {
+                return 1;
+            }
+            if (ua.match(/AlipayClient/i) == 'alipayclient') {
+                return 2;
+            }
+            if (ua.match(/Bytedance/i) == 'bytedance') {
+                return 3;
+            }
+            if (ua.match(/DingTalk/i) == 'dingtalk') {
+                return 4;
+            }
+            if (ua.match(/NewsArticle/i) == 'newsarticle') {
+                return 5;
+            }
+            if (ua.match(/Weibo/i) == 'weibo') {
+                return 6;
+            }
+            if (ua.match(/MQQBrowser/i) == 'mqqbrowser') {
+                return 7;
+            }
+            return 0;
+        }
+  </script>
+
+</body></html>
